@@ -1,0 +1,7 @@
+
+.lista-de-filmes {
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+    margin: 2% 10% 2% 10%;
+}

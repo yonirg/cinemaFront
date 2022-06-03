@@ -1,0 +1,14 @@
+
+.cabecalho {
+    margin: 0 0 2% 0;
+    background-color: rebeccapurple;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
