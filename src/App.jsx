@@ -2,7 +2,7 @@ import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 import Header from "./componentes/Header.jsx";
 import Adicionar from "./paginas/Adicionar.jsx";
 import Atualizar from "./paginas/Atualizar.jsx";
-import Catalogo from "./componentes/Catalogo.jsx";
+import Catalogo from "./paginas/Catalogo.jsx";
 import "./App.css";
 
 function App() {
