@@ -4,6 +4,7 @@ import Adicionar from "./paginas/Adicionar.jsx";
 import Atualizar from "./paginas/Atualizar.jsx";
 import Catalogo from "./paginas/Catalogo.jsx";
 import "./App.css";
+import Remover from "./paginas/Remover.jsx";
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
           <Route path="/catalogo" element={<Catalogo />} />
           <Route path="/adicionar" element={<Adicionar />} />
           <Route path="/atualizar" element={<Atualizar />} />
+          <Route path="/remover" element={<Remover />} />
         </Routes> 
       </BrowserRouter>
     </div>
