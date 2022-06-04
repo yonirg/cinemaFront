@@ -1,5 +1,5 @@
 import axios from "axios";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import FilmeCard from "../componentes/FilmeCard.jsx";
 
 function Catalogo() {
@@ -24,7 +24,6 @@ function Catalogo() {
 
   useEffect(() => {
     getFilmes();
-    console.log(filmes);
   }, []);
 
   return (
@@ -35,9 +34,11 @@ function Catalogo() {
           placeholder="qual filme deseja buscar?"
           className="campo-de-busca"
           value={value}
-          onChange={e => setValue(e.target.value)}
+          onChange={e => {setValue(e.target.value)}}
         />
-        <button onClick={getFilmesPorId(value)}>pesquisar</button>
+        <button onClick={e => {
+          e.preventDefault()
+          getFilmesPorId(value)}}>pesquisar</button>
       </div>
 
       <div className="lista-de-filmes">
