@@ -5,13 +5,14 @@ import Atualizar from "./paginas/Atualizar.jsx";
 import Catalogo from "./paginas/Catalogo.jsx";
 import "./App.css";
 import Remover from "./paginas/Remover.jsx";
-
+import Footer from "./componentes/Footer.jsx";
 function App() {
 
   return (
   <BrowserRouter>
       <div className="App">
           <Header />
+          <Footer />
           <Routes>
             <Route path="/catalogo" element={<Catalogo />} />
             <Route path="/adicionar" element={<Adicionar />} />
