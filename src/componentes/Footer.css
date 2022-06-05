@@ -1,0 +1,15 @@
+.rodape{
+    margin: 0;
+    background-color: rebeccapurple;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    width : 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.copyright{
+    color: aliceblue;
+    font-size: 30px;
+}

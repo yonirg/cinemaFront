@@ -4,9 +4,9 @@ import "./Footer.css";
 
 function Footer(){
     return(
-        <div>
-            
-        </div>
+        <footer className="rodape">
+            <p className="copyright">&copy; 2022</p>
+        </footer>  
     )
 }
 
