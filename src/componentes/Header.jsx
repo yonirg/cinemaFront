@@ -7,19 +7,24 @@ function Header() {
     <header className="cabecalho">
       <nav>
         <ul>
-          <Link to="/adicionar">
-            <li> adicionar filme</li>
+          <Link className="links" to="/">
+            <li>Home</li>
           </Link>
         </ul>
         <ul>
-          <Link to="/remover">
-            <li> remover filme</li>
+          <Link className="links" to="/adicionar">
+            <li> Adicionar filme</li>
+          </Link>
+        </ul>
+        <ul>
+          <Link className="links" to="/remover">
+            <li> Remover filme</li>
           </Link>
           
         </ul>
         <ul>
-          <Link to="/atualizar">
-            <li> atualizar filme</li>
+          <Link className="links" to="/atualizar">
+            <li> Atualizar filme</li>
           </Link>
           
         </ul>
