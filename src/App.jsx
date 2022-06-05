@@ -9,18 +9,18 @@ import Remover from "./paginas/Remover.jsx";
 function App() {
 
   return (
-    <div className="App">
-      <Header />
-
-      <BrowserRouter>
-        <Routes>
-          <Route path="/catalogo" element={<Catalogo />} />
-          <Route path="/adicionar" element={<Adicionar />} />
-          <Route path="/atualizar" element={<Atualizar />} />
-          <Route path="/remover" element={<Remover />} />
-        </Routes> 
-      </BrowserRouter>
-    </div>
+  <BrowserRouter>
+      <div className="App">
+          <Header />
+          <Routes>
+            <Route path="/catalogo" element={<Catalogo />} />
+            <Route path="/adicionar" element={<Adicionar />} />
+            <Route path="/atualizar" element={<Atualizar />} />
+            <Route path="/remover" element={<Remover />} />
+          </Routes> 
+        
+      </div>
+    </BrowserRouter>
   );
 }
 

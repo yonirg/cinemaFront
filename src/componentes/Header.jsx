@@ -6,9 +6,23 @@ function Header() {
   return (
     <header className="cabecalho">
       <nav>
-        <ul>adicionar filme</ul>
-        <ul>remover filme</ul>
-        <ul>atualizar filme</ul>
+        <ul>
+          <Link to="/adicionar">
+            <li> adicionar filme</li>
+          </Link>
+        </ul>
+        <ul>
+          <Link to="/remover">
+            <li> remover filme</li>
+          </Link>
+          
+        </ul>
+        <ul>
+          <Link to="/atualizar">
+            <li> atualizar filme</li>
+          </Link>
+          
+        </ul>
       </nav>
     </header>
   );
