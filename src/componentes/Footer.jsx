@@ -5,7 +5,9 @@ import "./Footer.css";
 function Footer(){
     return(
         <footer className="rodape">
-            <p className="copyright">&copy; 2022</p>
+            
+
+            <p className="copyright">&copy; 2022 Carboxine - All Rights Reserved </p>
         </footer>  
     )
 }
