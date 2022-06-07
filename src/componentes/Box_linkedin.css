@@ -15,7 +15,7 @@
     width: 20%;
     margin-left:100px ;
     position: fixed;
-    bottom: 25px;
+    bottom: 20px;
 }
 
 .box2{
@@ -23,7 +23,7 @@
     justify-content: space-evenly;
     position: fixed;
     right: 5px;
-    bottom: 25px;
+    bottom: 20px;
     width: 40%;
 }
 
