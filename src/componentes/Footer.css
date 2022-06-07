@@ -1,7 +1,7 @@
 .rodape{
     margin: 0;
-    background-color: rebeccapurple;
-    height: 100px;
+    background-color: rgba(102, 51, 153, 0.492);
+    height: 80px;
     display: flex;
     justify-content: center;
     width : 100%;
@@ -10,6 +10,11 @@
 }
 
 .copyright{
-    color: aliceblue;
-    font-size: 30px;
+    color: rgb(228, 252, 41);
+    font-size: 20px;
+    position: fixed;
+    bottom: 0;
+}
+.logo1{
+    height:4rem ;
 }

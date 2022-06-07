@@ -1,11 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Footer.css";
+import logo from '../imgs/logo.png'
+
 
 function Footer(){
     return(
         <footer className="rodape">
-            <p className="copyright">&copy; 2022</p>
+            <img className="logo1" src={logo} alt="logo" />
+            <p className="copyright">&copy; 2022 Carboxine - All Rights Reserved </p>
         </footer>  
     )
 }
