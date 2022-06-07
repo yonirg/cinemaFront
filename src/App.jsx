@@ -7,7 +7,6 @@ import "./App.css";
 import Remover from "./paginas/Remover.jsx";
 import Footer from "./componentes/Footer.jsx";
 function App() {
-
   return (
   <BrowserRouter>
       <div className="App">

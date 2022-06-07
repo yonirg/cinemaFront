@@ -11,6 +11,7 @@
 nav {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .links{
@@ -21,4 +22,11 @@ nav {
 li{
     color: aliceblue;
     list-style: none;
+}
+
+.logo{
+    max-width: 50px;
+    max-height: 50px;
+    width: auto;
+    height: auto;
 }
