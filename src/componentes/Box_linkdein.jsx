@@ -1,5 +1,6 @@
 import "./Box_linkedin.css"
 import linkedin from "../imgs/linkedin.png"
+import github from "../imgs/logo_github.png"
 function Box_linkedin(){
     return(
         <div className="container">
@@ -9,9 +10,9 @@ function Box_linkedin(){
                 <a href="https://www.linkedin.com/in/felipenascto/"><img className="logo_linkedin" src={linkedin} alt="logo_linkedin" /></a>
             </div>
             <div className="box2">
-            <a href="https://www.linkedin.com/in/felipenascto/"><img className="logo_linkedin" src={linkedin} alt="logo_linkedin" /></a>
             <a href="https://www.linkedin.com/in/douglas-p-monteiro/"><img className="logo_linkedin" src={linkedin} alt="logo_linkedin" /></a>
             <a href="https://www.linkedin.com/in/diego-nunes-tolotto-7b0963156/"><img className="logo_linkedin" src={linkedin} alt="logo_linkedin" /></a>
+            <a href="https://github.com/douglasmdev/cinemaFront"><img className="logo_github" src={github} alt="logo_linkedin" /></a>
 
             </div>
         </div>

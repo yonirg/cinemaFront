@@ -12,6 +12,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 90%;
 }
 
 .links{
@@ -25,8 +26,9 @@ li{
 }
 
 .logo{
-    max-width: 50px;
-    max-height: 50px;
+    max-width: 53px;
+    max-height: 60px;
     width: auto;
     height: auto;
+    margin-top: 5px;
 }
