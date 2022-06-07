@@ -1,4 +1,5 @@
 import axios from "axios";
+
 import React, { useState } from "react";
 
 const API_URL = "http://localhost:3001/filmes";
@@ -13,16 +14,19 @@ function Remover() {
 
   const [id, setId] = useState("");
   return (
+    <div className="remover">
     <form>
-      <label htmlFor="id">Id:</label>
+      <label className='label' htmlFor="id">Id:</label>
       <br />
       <input
+      className="campo-de-busca"
         type="text"
         id="id"
         value={id}
         onChange={(e) => setId(e.target.value)}
       />
       <button
+      className="bnt"
         onClick={(e) => {
           e.preventDefault();
           deleteFilme(id);
@@ -31,6 +35,7 @@ function Remover() {
         Deletar
       </button>
     </form>
+    </div>
   );
 }
 
