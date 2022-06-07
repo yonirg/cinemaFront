@@ -6,12 +6,14 @@ import Catalogo from "./paginas/Catalogo.jsx";
 import "./App.css";
 import Remover from "./paginas/Remover.jsx";
 import Footer from "./componentes/Footer.jsx";
+import Box_linkedin from "./componentes/Box_linkdein.jsx";
 function App() {
   return (
   <BrowserRouter>
       <div className="App">
           <Header />
           <Footer />
+          <Box_linkedin />
           <Routes>
             <Route path="/catalogo" element={<Catalogo />} />
             <Route path="/adicionar" element={<Adicionar />} />

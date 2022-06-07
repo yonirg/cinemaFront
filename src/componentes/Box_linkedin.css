@@ -1,0 +1,28 @@
+.logo_linkedin{
+    height: 30px;
+    width: 30px;
+}
+
+.container{
+    position: fixed;
+    bottom: 8px;
+    width: 100%;
+}
+
+.box1{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    margin-left:100px ;
+    position: fixed;
+    bottom: 25px;
+}
+
+.box2{
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    right: 5px;
+    bottom: 25px;
+    width: 40%;
+}
