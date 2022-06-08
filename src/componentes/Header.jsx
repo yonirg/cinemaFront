@@ -1,8 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./Header.css";
 import logo from '../imgs/logo.png'
-
+import { Link } from 'react-router-dom';
 
 function Header() {
   return (
@@ -32,6 +31,12 @@ function Header() {
         <ul>
           <Link className="links" to="/atualizar">
             <li> Atualizar filme</li>
+          </Link>
+          
+        </ul>
+        <ul>
+          <Link className="links" to="/catalogo">
+            <li> Catálogo</li>
           </Link>
           
         </ul>
