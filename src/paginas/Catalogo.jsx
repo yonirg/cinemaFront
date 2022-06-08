@@ -30,8 +30,6 @@ function Catalogo() {
   return (
     <div className="catalogo">
       <div className="container">
-        <h2 className="titulo"> Seja bem vindo!</h2>
-        <p className="subtitulo"> Insira o Id do filme desejado</p>
       </div>
       <div className="pesquisa">
         <div className="pesquisa-input">
