@@ -1,0 +1,39 @@
+.catalogo {
+    background-color: #ffffff
+}
+
+.container {
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+    display: grid;
+    justify-content: baseline;
+    grid-template-rows: auto auto auto;
+}
+
+.titulo {
+    text-align: center;
+    padding: 20px 0 10px 0;
+}
+
+.subtitulo {
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+.pesquisa-input {
+    
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    margin: 2% 20% 2% 20%;
+    
+}
+
+.campo-de-busca{
+    line-height: 25px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.lista-de-filmes {
+    background-color: #343a40;
+}
