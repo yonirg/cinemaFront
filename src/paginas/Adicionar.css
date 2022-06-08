@@ -11,11 +11,12 @@ form {
     display: flex;
     flex-direction: column;
     width: 60vw;
+    height: 90vh;
     margin: 2% 20% 2% 20%;
 }
 
 input, textarea {
-    line-height: 25px;
+    line-height: 10px;
     margin-top: 1%;
     margin-bottom: 1%;
 }
