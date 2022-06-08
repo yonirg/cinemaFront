@@ -1,15 +1,43 @@
 import React from "react";
 import "./Header.css";
+import logo from '../imgs/logo.png'
+
 
 function Header() {
   return (
     <header className="cabecalho">
       <nav>
-        <ul>adicionar filme</ul>
-        <ul>remover filme</ul>
-        <ul>atualizar filme</ul>
+        <ul>
+          <li>
+            <img className="logo" src={logo} alt="logo" />
+          </li>
+        </ul>
+        <ul>
+          <Link className="links" to="/">
+            <li>Home</li>
+          </Link>
+        </ul>
+        <ul>
+          <Link className="links" to="/adicionar">
+            <li> Adicionar filme</li>
+          </Link>
+        </ul>
+        <ul>
+          <Link className="links" to="/remover">
+            <li> Remover filme</li>
+          </Link>
+          
+        </ul>
+        <ul>
+          <Link className="links" to="/atualizar">
+            <li> Atualizar filme</li>
+          </Link>
+          
+        </ul>
       </nav>
+    
     </header>
+    
   );
 }
 
