@@ -7,13 +7,14 @@ import ParaCriancas from "./ParaCrincas/ParaCriancas.jsx";
 import Terror from "./Terror/Terror.jsx";
 import Outros from "./Outros/Outros";
 import Produtos from "./Produtos/Produtos";
+import Banner from "./Banner/Banner";
 
 
 function Home() {
 
     return (
-        <div className="banner">
-            <header className="faixa"> Filmes em cartaz!</header>
+        <div className="home">
+            <Banner />
             <Lancamento />
             <FilmesMarvel/>
             <FilmesDC/>

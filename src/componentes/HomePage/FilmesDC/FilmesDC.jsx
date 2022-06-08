@@ -1,5 +1,5 @@
 import React from "react";
-import "./FilmesDC.css"
+import "./FilmesDC.css";
 function FilmesDC() {
     return(
         <><div className="titulo">
