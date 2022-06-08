@@ -1,13 +1,4 @@
-.banner {
+.home {
     background-color: #272829;
 }
 
-.faixa {
-    background-color: black;
-    color: white;
-    font-family: sans-serif;
-    padding: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
