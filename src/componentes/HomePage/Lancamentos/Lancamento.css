@@ -2,7 +2,7 @@
     font-family: sans-serif;
     color: white;
 }
-.container {
+.containerLancamento {
     margin-top: 5%;
     margin-bottom: 5%;
     margin-left: 20%;
@@ -11,7 +11,7 @@
     grid-gap: 1px
 }
 
-.imgs {
+.imgsLancamento {
     border: 0.5px solid white;
     height: 246.92px;
     width: 147.8px;

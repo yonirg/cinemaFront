@@ -7,10 +7,10 @@ function Lancamento() {
             <h3>Lançamentos</h3>
             <hr/>
         </div>
-        <div className="container">
+        <div className="containerLancamento">
 
                 <div className="filme1">
-                    <img className="imgs" src={`https://cdnim.prd.cineticket.com.br/asset/movie/6541/top-gun-maverick-poster-desktop-4478.jpg`} />
+                    <img className="imgsLancamento" src={`https://cdnim.prd.cineticket.com.br/asset/movie/6541/top-gun-maverick-poster-desktop-4478.jpg`} />
                     <p className="nomeFilme">Namor</p>
                     <p className="detalhes">Em breve</p>
                     <p className="detalhes">+12</p>
