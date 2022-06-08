@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import "./atualizar.css";
+import "./Atualizar.css";
 import axios from "axios";
 
 const API_URL = "http://localhost:3001/filmes";
