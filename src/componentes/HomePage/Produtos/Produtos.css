@@ -1,0 +1,19 @@
+.titulo{
+    font-size: 18px;
+    font-family: sans-serif;
+    color: white;
+    margin: 5px 0 5px 0;
+}
+
+.containerProdutos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1px;
+    margin: 5% 15% 0 15%;
+}
+
+.imagem {
+    height: 250px;
+    width: 250px;
+}
+
