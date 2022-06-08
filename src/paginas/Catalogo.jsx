@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useRef, useState } from "react";
-import FilmeCard from "../componentes/FilmeCard.jsx";
+import FilmeCard from "../componentes/FilmeCard"
+
 
 function Catalogo() {
   // const API_URL = "https://cinema--api.herokuapp.com/filmes";
@@ -28,7 +29,12 @@ function Catalogo() {
 
   return (
     <div className="catalogo">
+      <div className="container">
+        <h2 className="titulo"> Seja bem vindo!</h2>
+        <p className="subtitulo"> Insira o Id do filme desejado</p>
+      </div>
       <div className="pesquisa">
+        <div className="pesquisa-input">
         <input
           type="text"
           placeholder="qual filme deseja buscar?"
@@ -36,7 +42,8 @@ function Catalogo() {
           value={value}
           onChange={e => {setValue(e.target.value)}}
         />
-        <button onClick={e => {
+        </div>
+        <button className="bnt" onClick={e => {
           e.preventDefault()
           getFilmesPorId(value)}}>pesquisar</button>
       </div>
@@ -44,7 +51,7 @@ function Catalogo() {
       <div className="lista-de-filmes">
         {filmes.map((filme) => {
           return <FilmeCard key={filme.nome} filme={filme} />;
-        })}
+        })} 
       </div>
     </div>
   );

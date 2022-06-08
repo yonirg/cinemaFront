@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Adicionar.css";
+
 import axios from "axios";
 
 const API_URL = "http://localhost:3001/filmes";
@@ -27,26 +27,29 @@ function Adicionar() {
   };
 
   return (
-    <div>
+    <div className="adicionar">
       <form>
-        <label htmlFor="id">Id</label>
+        <label className="label" htmlFor="id">Id</label>
         <input
+        className="campo-de-busca"
           type="text"
           id="id"
           value={id}
           onChange={(e) => setId(e.target.value)}
         />
 
-        <label htmlFor="nome">Nome</label>
+        <label className="label" htmlFor="nome">Nome</label>
         <input
+        className="campo-de-busca"
           type="text"
           id="nome"
           value={nome}
           onChange={(e) => setNome(e.target.value)}
         />
 
-        <label htmlFor="tipo">Tipo</label>
+        < label className="label" htmlFor="tipo">Tipo</label>
         <input
+          className="campo-de-busca"
           type="text"
           id="tipo"
           placeholder="2D ou 3D"
@@ -54,8 +57,9 @@ function Adicionar() {
           onChange={(e) => setTipo(e.target.value)}
         />
 
-        <label htmlFor="genero">Genero</label>
+        <label className="label" htmlFor="genero">Genero</label>
         <input
+        className="campo-de-busca"
           type="text"
           id="genero"
           placeholder="Ação, Aventura, etc"
@@ -63,8 +67,9 @@ function Adicionar() {
           onChange={(e) => setGenero(e.target.value)}
         />
 
-        <label htmlFor="lancamento">Lançamento</label>
+        <label className="label" htmlFor="lancamento">Lançamento</label>
         <input
+        className="campo-de-busca"
           type="text"
           id="lancamento"
           placeholder="Ex: 1969"
@@ -72,8 +77,9 @@ function Adicionar() {
           onChange={(e) => setLancamento(e.target.value)}
         />
 
-        <label htmlFor="descricao">Descrição</label>
+        <label className="label" htmlFor="descricao">Descrição</label>
         <textarea
+        className="campo-de-busca"
           id="descricao"
           cols="30"
           rows="5"
@@ -82,6 +88,7 @@ function Adicionar() {
         ></textarea>
 
         <button
+        className="bnt"
           onClick={(e) => {
             e.preventDefault();
             postFilme();
