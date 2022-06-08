@@ -3,7 +3,7 @@ import "./FilmesDC.css"
 function FilmesDC() {
     return(
         <><div className="titulo">
-            <h3>Futuro lançamentos DC Studio</h3>
+            <h3>Em breve DC Studio</h3>
             <hr/>
         </div>
         <div className="FuturoLançamentoMarvel">

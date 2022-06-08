@@ -1,9 +1,10 @@
 import React from "react";
 import "./FilmesMarvel.css"
+
 function FilmesMarvel() {
     return(
         <><div className="titulo">
-            <h3>Futuro lançamentos Marvel Studios</h3>
+            <h3>Em breve Marvel Studios</h3>
             <hr/>
         </div>
         <div className="FuturoLançamentoMarvel">

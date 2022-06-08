@@ -5,7 +5,6 @@ import Atualizar from "./paginas/Atualizar.jsx"
 import Catalogo from "./paginas/Catalogo.jsx";
 import "./App.css";
 import Remover from "./paginas/Remover.jsx";
-
 import Home from "./componentes/HomePage/Home.jsx";
 
 function App() {
