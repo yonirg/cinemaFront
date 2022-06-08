@@ -10,5 +10,25 @@
 
 nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+}
+
+.links{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li{
+    color: aliceblue;
+    list-style: none;
+}
+
+.logo{
+    max-width: 53px;
+    max-height: 60px;
+    width: auto;
+    height: auto;
+    margin-top: 5px;
 }
