@@ -34,6 +34,12 @@ function Header() {
           </Link>
           
         </ul>
+        <ul>
+          <Link className="links" to="/catalogo">
+            <li> Catálogo</li>
+          </Link>
+          
+        </ul>
       </nav>
     
     </header>
