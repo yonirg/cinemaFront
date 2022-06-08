@@ -1,12 +1,12 @@
 import React from "react";
 import "./Banner.css"
-import carboxine from "./Carboxine.gif" 
+import carboxine from "../../../imgs/Carboxine.gif"
 
 export default function Banner() {
     return (
         <>
         <header>
-            <div  className="faixa">
+            <div  className="faixaBanner">
              <p>Filmes em cartaz!</p>
             </div>
              <img className="imagemBanner" src={carboxine} alt="imagemBanner" />
