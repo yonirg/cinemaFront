@@ -7,7 +7,7 @@ function Lancamento() {
             <h3>Lançamentos</h3>
             <hr/>
         </div>
-        <div className="FuturoLançamentoMarvel">
+        <div className="container">
 
                 <div className="filme1">
                     <img className="imgs" src={`https://cdnim.prd.cineticket.com.br/asset/movie/6541/top-gun-maverick-poster-desktop-4478.jpg`} />

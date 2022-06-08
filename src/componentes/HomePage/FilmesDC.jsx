@@ -6,7 +6,7 @@ function FilmesDC() {
             <h3>Em breve DC Studio</h3>
             <hr/>
         </div>
-        <div className="FuturoLançamentoMarvel">
+        <div className="container">
 
                 <div className="filme1">
                     <img className="imgs" src={`https://thedirect.s3.amazonaws.com/media/photos/FEADE5E0-B8D1-4E48-B084-8B2E8E196203.jpg`} />

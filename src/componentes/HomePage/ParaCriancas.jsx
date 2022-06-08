@@ -7,7 +7,7 @@ function ParaCriancas() {
             <h3>Para as crianças</h3>
             <hr/>
         </div>
-        <div className="FuturoLançamentoMarvel">
+        <div className="container">
 
                 <div className="filme1">
                     <img className="imgs" src={`https://cdnim.prd.cineticket.com.br/asset/movie/7209/minions-2-poster-tablet.jpg`} />

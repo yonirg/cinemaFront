@@ -7,7 +7,7 @@ function FilmesMarvel() {
             <h3>Em breve Marvel Studios</h3>
             <hr/>
         </div>
-        <div className="FuturoLançamentoMarvel">
+        <div className="container">
 
                 <div className="filme1">
                     <img className="imgs" src={`https://i.pinimg.com/originals/31/72/12/31721247aa4ef4c8529ade61a4826717.jpg`} />

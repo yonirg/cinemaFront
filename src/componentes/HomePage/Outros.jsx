@@ -7,7 +7,7 @@ function Outros() {
             <h3>Outros</h3>
             <hr/>
         </div>
-        <div className="FuturoLançamentoMarvel">
+        <div className="container">
 
                 <div className="filme1">
                     <img className="imgs" src={`https://cdnim.prd.cineticket.com.br/asset/movie/7688/after-depois-da-promessa-poster-tablet-4488.jpg`} />

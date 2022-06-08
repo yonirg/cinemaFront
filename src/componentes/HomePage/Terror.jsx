@@ -7,7 +7,7 @@ function Terror() {
             <h3>Terror</h3>
             <hr/>
         </div>
-        <div className="FuturoLançamentoMarvel">
+        <div className="container">
 
                 <div className="filme1">
                     <img className="imgs" src={`https://cdnim.prd.cineticket.com.br/asset/movie/7651/veja-por-mim-poster-tablet-4458.jpg`} />
