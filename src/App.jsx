@@ -14,7 +14,7 @@ function App() {
   <BrowserRouter>
       <div className="App">
           <Header />
-          <Footer />
+          
           <Box_linkedin />
           <Routes>
             <Route path="/" element={<Home/>}/>
@@ -23,6 +23,7 @@ function App() {
             <Route path="/atualizar" element={<Atualizar />} />
             <Route path="/remover" element={<Remover />} />
           </Routes> 
+        <Footer />
       </div>
     </BrowserRouter>
   );
