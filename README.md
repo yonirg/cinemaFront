@@ -1,6 +1,6 @@
-# Projeto Modulo5
+# Carboxine (Módulo 5)
 
-## Projeto de 5 módulo da Resília.
+## Projeto de módulo 5 da Resília.
 
 Este projeto foi desenvolvido em
 =================
